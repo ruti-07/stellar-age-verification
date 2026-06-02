@@ -90,7 +90,7 @@ cp .env.example frontend/.env.local
 ```
 Open `frontend/.env.local` and paste the Contract ID from Step 3 into the `NEXT_PUBLIC_CONTRACT_ID` field:
 ```env
-NEXT_PUBLIC_CONTRACT_ID=C... (your contract ID)
+NEXT_PUBLIC_CONTRACT_ID=CBEVXH7CIWOZPDZJH6BFVZDTMFE4GRHJUIT65XLOEREHPDSHWOLY6CK6
 ```
 
 ## Step 6 — Run the Frontend
@@ -135,6 +135,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 - **"CommitmentNotFound"** → You are trying to verify with a hash that has not been registered by the admin or has already been consumed.
 
 ## Testnet Resources
-- Stellar Testnet Explorer: [https://stellar.expert/explorer/testnet](https://stellar.expert/explorer/testnet)
+- Stellar Testnet Explorer: [https://stellar.expert/explorer/testnet/contract/CBEVXH7CIWOZPDZJH6BFVZDTMFE4GRHJUIT65XLOEREHPDSHWOLY6CK6](https://stellar.expert/explorer/testnet/contract/CBEVXH7CIWOZPDZJH6BFVZDTMFE4GRHJUIT65XLOEREHPDSHWOLY6CK6)
 - Stellar Lab (manual transactions): [https://lab.stellar.org](https://lab.stellar.org)
 - Friendbot: [https://friendbot.stellar.org/?addr=YOUR_PUBLIC_KEY](https://friendbot.stellar.org/?addr=YOUR_PUBLIC_KEY)
